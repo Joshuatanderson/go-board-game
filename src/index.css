@@ -1,0 +1,44 @@
+.height-control{
+    height: 80vh;
+}
+
+.svg-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.svg{
+    max-width: 5.5%;
+    max-height: 5.5%;
+    flex-basis: 10%;
+    margin: -3px;
+}
+
+.svg-rect{
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.svg-line{
+    stroke: black;
+}
+
+.svg-marker:hover{
+    fill: rgb(255, 230, 118);
+}
+
+.marker-light{
+    fill: rgb(230, 230, 230);
+}
+
+.marker-dark{
+    fill: rgb(43, 43, 43);
+}
+
+.svg-marker{
+    fill: rgba(0, 0, 255, 0);
+}
